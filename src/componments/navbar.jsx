@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { AppBar, Avatar, Badge, Box, Button, IconButton,  Toolbar, Tooltip, Typography } from '@mui/material';
+import { AppBar, Avatar, Badge, Box, Button, IconButton, Toolbar, Tooltip, Typography } from '@mui/material';
 import SailingIcon from '@mui/icons-material/Sailing';
 import React from 'react';
 import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
@@ -20,9 +20,9 @@ const Icons = styled(Box)(({ theme }) => ({
 
 const Navbar = () => {
 
-  
 
-  
+
+
 
 
     return (
@@ -31,14 +31,13 @@ const Navbar = () => {
                 <Styletoolbar>
                     <Icons>
                         <Nav />
-
                         <Typography varient="h6" mr={2} color="#191970" >AquaRob  <SailingIcon /></Typography>
                     </Icons>
                     <Icons>
                         <Tooltip title="il y 20 notification ">
                             <IconButton>
                                 <Badge badgeContent={20} color="error">
-                                    <CircleNotificationsIcon  sx={{fontSize: 38, color: "#191970" }} />
+                                    <CircleNotificationsIcon sx={{ fontSize: 38, color: "#191970" }} />
                                 </Badge>
                             </IconButton>
                         </Tooltip>
@@ -47,7 +46,7 @@ const Navbar = () => {
                             <IconButton>
 
                                 <Badge badgeContent={1} color="error">
-                                    <ErrorIcon sx={{fontSize: 38, color: "#191970" }}  />
+                                    <ErrorIcon sx={{ fontSize: 38, color: "#191970" }} />
                                 </Badge>
 
                             </IconButton>
